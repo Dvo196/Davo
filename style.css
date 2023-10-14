@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Dom{
+    border: 5px solid black;
+   height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box{
+    height: 150px;
+    width: 600px;
+    border-radius: 30px;
+    border: 7px solid rgb(0, 0, 0); 
+    transition: 1s;
+    opacity: 0.7;
+}
+.Form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.inp{
+    width: 170px;
+    border: 2.5px solid rgb(0, 0, 0); 
+
+}
+.btn{
+    height: 23px;
+    width: 70px;
+}
+.C_css {
+    display: none;
+    margin-top: -37px;
+    margin-left: 70px;
+}
+.Hum_css{
+    display: none;
+    margin-left: 30px;
+    margin-top: -25px;
+}
+.wind_css{
+    display: none;
+    margin-left: 50px;
+    margin-top: -24px;
+}
+.h2_css{
+    margin-top: 20px;
+    margin-right: 43px;
+}
+.h3_css{
+    margin-top: 10px;
+    margin-right: 30px;
+}
+
+.pogoda_css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    margin-right: 30px;
+}
+.cloud_css{
+    background-image: url("./images/cloud.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.image_css_404{
+    background-image: url("./images/404.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.clear_css{
+    background-image: url("./images/clear.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.mist_css{
+    background-image: url("./images/mist.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.rain_css{
+    background-image: url("./images/rain.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.snow_css{
+    background-image: url("./images/snow.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 160px;
+    margin-top: -27%;
+    margin-right: 27px;
+    display: none;
+}
+.Textes{
+    margin-top: 5%;
+}
+.text2{
+    margin-top: 30px;
+}
+.text3{
+    margin-top: 30px;
+}
